@@ -1,0 +1,38 @@
+/* Za tablete */
+@media screen and (max-width: 850px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .meni ul li {
+    display: block;
+    margin: 5px 0;
+    text-align: center;
+  }
+  .row {
+    flex-direction: column;
+    width: 80%;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+}
+/* Za telefone */
+@media screen and (max-width: 700px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-main {
+    width: 100%;
+  }
+  .about-main-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-main-box {
+    width: 100%;
+    text-align: center;
+  }
+  .top-services-box {
+    margin: 10px 0;
+  }
+}

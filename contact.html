@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Fitness</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./img/logo.png" alt="" />
+      </div>
+      <div class="meni">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="classes.html">CLASSES</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero hero-about">
+      <div class="hero-overlay"></div>
+      <div class="hero-row">
+        <div class="hero-main about-hero-main">
+          <h3>Contact</h3>
+        </div>
+      </div>
+    </div>
+    <div class="about-main top-services contact-main">
+      <h1>Fitness Class</h1>
+      <div class="about-main-row top-services-row contact-row">
+        <div class="about-main-box top-services-box classes-box contact-box">
+          <form id="contact">
+            <div class="row">
+              <input type="text" id="ime" placeholder="Enter your name" />
+              <input type="email" id="email" placeholder="Enter your email" />
+              <input
+                type="tel"
+                id="telefon"
+                placeholder="Enter your phone number"
+              />
+            </div>
+            <div class="row">
+              <textarea
+                name="message"
+                id="poruka"
+                cols="30"
+                rows="10"
+                placeholder="Enter your message"
+              ></textarea>
+            </div>
+            <div class="row">
+              <input id="submit" type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+.hero {
+  padding: 307px 7.2% 327px;
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero-row {
+  display: flex;
+}
+.hero-main {
+  width: 50%;
+  color: $txt-color;
+  h1 {
+    font-size: 62px;
+  }
+}
+
+.hero-button-box {
+  margin-top: 30px;
+}
+.hero-button {
+  padding: 10px 20px;
+  border: 2px dashed $txt-color;
+  color: $txt-color;
+  border-radius: 10px;
+  &:hover {
+    background-color: $orange;
+    border: 2px solid $orange;
+    transition: 0.3s ease;
+  }
+}
+.hero-button2 {
+  margin-left: 20px;
+  background-color: $orange;
+  border: 2px solid $orange;
+  &:hover {
+    background-color: transparent;
+    border: 2px dashed $txt-color;
+  }
+}
